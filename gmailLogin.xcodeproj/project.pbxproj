@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17FB31507EC41FD069E4AAE8 /* libPods-gmailLoginTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E09FD32496430F647D9966 /* libPods-gmailLoginTests.a */; };
+		5E9FE16BD64DF4705B9E246D /* libPods-gmailLoginUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AFDF871BE25F75FC3D9496 /* libPods-gmailLoginUITests.a */; };
+		A74A567D95E37763E36A455A /* libPods-gmailLogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D81B0AD5B088010BFB7C0F55 /* libPods-gmailLogin.a */; };
 		F6E566871F31CF4700EA4F6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E566861F31CF4700EA4F6F /* main.m */; };
 		F6E5668A1F31CF4700EA4F6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E566891F31CF4700EA4F6F /* AppDelegate.m */; };
 		F6E5668D1F31CF4800EA4F6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E5668C1F31CF4800EA4F6F /* ViewController.m */; };
@@ -35,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A24FEAFC8439C713C965878 /* Pods-gmailLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gmailLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gmailLogin/Pods-gmailLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		535150E9BA94D16AF265AAB5 /* Pods-gmailLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gmailLoginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gmailLoginTests/Pods-gmailLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58E09FD32496430F647D9966 /* libPods-gmailLoginTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gmailLoginTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA67A4650E289907417731A /* Pods-gmailLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gmailLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-gmailLogin/Pods-gmailLogin.release.xcconfig"; sourceTree = "<group>"; };
+		92174306E9D72B76B045FB5F /* Pods-gmailLoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gmailLoginUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gmailLoginUITests/Pods-gmailLoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB3C4133CE7E9891720AB30B /* Pods-gmailLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gmailLoginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-gmailLoginTests/Pods-gmailLoginTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6773EBF8E727BDBEB5FA826 /* Pods-gmailLoginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gmailLoginUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-gmailLoginUITests/Pods-gmailLoginUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D81B0AD5B088010BFB7C0F55 /* libPods-gmailLogin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gmailLogin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E566821F31CF4700EA4F6F /* gmailLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gmailLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E566861F31CF4700EA4F6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F6E566881F31CF4700EA4F6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,7 @@
 		F6E566A61F31CF4800EA4F6F /* gmailLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gmailLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E566AA1F31CF4800EA4F6F /* gmailLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gmailLoginUITests.m; sourceTree = "<group>"; };
 		F6E566AC1F31CF4800EA4F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8AFDF871BE25F75FC3D9496 /* libPods-gmailLoginUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gmailLoginUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A74A567D95E37763E36A455A /* libPods-gmailLogin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17FB31507EC41FD069E4AAE8 /* libPods-gmailLoginTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E9FE16BD64DF4705B9E246D /* libPods-gmailLoginUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E7C2A353B5B5709B41DE48B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D81B0AD5B088010BFB7C0F55 /* libPods-gmailLogin.a */,
+				58E09FD32496430F647D9966 /* libPods-gmailLoginTests.a */,
+				F8AFDF871BE25F75FC3D9496 /* libPods-gmailLoginUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2D03C0AF2935129506AD425 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A24FEAFC8439C713C965878 /* Pods-gmailLogin.debug.xcconfig */,
+				8BA67A4650E289907417731A /* Pods-gmailLogin.release.xcconfig */,
+				535150E9BA94D16AF265AAB5 /* Pods-gmailLoginTests.debug.xcconfig */,
+				BB3C4133CE7E9891720AB30B /* Pods-gmailLoginTests.release.xcconfig */,
+				92174306E9D72B76B045FB5F /* Pods-gmailLoginUITests.debug.xcconfig */,
+				D6773EBF8E727BDBEB5FA826 /* Pods-gmailLoginUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F6E566791F31CF4600EA4F6F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				F6E5669E1F31CF4800EA4F6F /* gmailLoginTests */,
 				F6E566A91F31CF4800EA4F6F /* gmailLoginUITests */,
 				F6E566831F31CF4700EA4F6F /* Products */,
+				D2D03C0AF2935129506AD425 /* Pods */,
+				6E7C2A353B5B5709B41DE48B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6E566AF1F31CF4800EA4F6F /* Build configuration list for PBXNativeTarget "gmailLogin" */;
 			buildPhases = (
+				009BA051D04948EA24F8A9B2 /* [CP] Check Pods Manifest.lock */,
 				F6E5667E1F31CF4700EA4F6F /* Sources */,
 				F6E5667F1F31CF4700EA4F6F /* Frameworks */,
 				F6E566801F31CF4700EA4F6F /* Resources */,
+				CD4A55C4B380B4FE6A0C82B3 /* [CP] Embed Pods Frameworks */,
+				348496041774971B50FE82D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6E566B21F31CF4800EA4F6F /* Build configuration list for PBXNativeTarget "gmailLoginTests" */;
 			buildPhases = (
+				CD804673FF681D44E0E33EA4 /* [CP] Check Pods Manifest.lock */,
 				F6E566971F31CF4800EA4F6F /* Sources */,
 				F6E566981F31CF4800EA4F6F /* Frameworks */,
 				F6E566991F31CF4800EA4F6F /* Resources */,
+				6315C361B72EA08CDA568762 /* [CP] Embed Pods Frameworks */,
+				EECE3A4E2C786349A5D9E744 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6E566B51F31CF4800EA4F6F /* Build configuration list for PBXNativeTarget "gmailLoginUITests" */;
 			buildPhases = (
+				8B096537073257236D6A5927 /* [CP] Check Pods Manifest.lock */,
 				F6E566A21F31CF4800EA4F6F /* Sources */,
 				F6E566A31F31CF4800EA4F6F /* Frameworks */,
 				F6E566A41F31CF4800EA4F6F /* Resources */,
+				36B4541A2F490D72A9CAC149 /* [CP] Embed Pods Frameworks */,
+				E7D37D5F98A0ADE27F9552CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,6 +316,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		009BA051D04948EA24F8A9B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		348496041774971B50FE82D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gmailLogin/Pods-gmailLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36B4541A2F490D72A9CAC149 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gmailLoginUITests/Pods-gmailLoginUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6315C361B72EA08CDA568762 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gmailLoginTests/Pods-gmailLoginTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B096537073257236D6A5927 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD4A55C4B380B4FE6A0C82B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gmailLogin/Pods-gmailLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD804673FF681D44E0E33EA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7D37D5F98A0ADE27F9552CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gmailLoginUITests/Pods-gmailLoginUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EECE3A4E2C786349A5D9E744 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gmailLoginTests/Pods-gmailLoginTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F6E5667E1F31CF4700EA4F6F /* Sources */ = {
@@ -422,28 +609,31 @@
 		};
 		F6E566B01F31CF4800EA4F6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A24FEAFC8439C713C965878 /* Pods-gmailLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = gmailLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.panaceatek.autolayout.gmailLogin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.panaceatek.panacea;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		F6E566B11F31CF4800EA4F6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA67A4650E289907417731A /* Pods-gmailLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = gmailLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.panaceatek.autolayout.gmailLogin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.panaceatek.panacea;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		F6E566B31F31CF4800EA4F6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 535150E9BA94D16AF265AAB5 /* Pods-gmailLoginTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = gmailLoginTests/Info.plist;
@@ -456,6 +646,7 @@
 		};
 		F6E566B41F31CF4800EA4F6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB3C4133CE7E9891720AB30B /* Pods-gmailLoginTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = gmailLoginTests/Info.plist;
@@ -468,6 +659,7 @@
 		};
 		F6E566B61F31CF4800EA4F6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92174306E9D72B76B045FB5F /* Pods-gmailLoginUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = gmailLoginUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +671,7 @@
 		};
 		F6E566B71F31CF4800EA4F6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6773EBF8E727BDBEB5FA826 /* Pods-gmailLoginUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = gmailLoginUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -507,6 +700,7 @@
 				F6E566B11F31CF4800EA4F6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6E566B21F31CF4800EA4F6F /* Build configuration list for PBXNativeTarget "gmailLoginTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +709,7 @@
 				F6E566B41F31CF4800EA4F6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6E566B51F31CF4800EA4F6F /* Build configuration list for PBXNativeTarget "gmailLoginUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +718,7 @@
 				F6E566B71F31CF4800EA4F6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

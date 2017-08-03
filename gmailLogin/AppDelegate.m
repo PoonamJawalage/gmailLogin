@@ -17,8 +17,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+       [GIDSignIn sharedInstance].clientID = clientID;
     return YES;
 }
+-(BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
+           [[GIDSignIn sharedInstance] handleURL:url
+                            sourceApplication:sourceApplication
+                                   annotation:annotation];
+        
+        return YES;
+   
+}
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

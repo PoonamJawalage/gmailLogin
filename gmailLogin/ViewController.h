@@ -7,9 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GoogleSignIn/GoogleSignIn.h>
+@interface ViewController : UIViewController<GIDSignInUIDelegate,GIDSignInDelegate>
+{
+    UIView *blurView;
+       UIActivityIndicatorView *spinner;
+    NSString   *Stremail ;
+    NSString *Strlastname ;
+    
+    NSString   *Strname ;
+    NSString   *Strid ;
 
-@interface ViewController : UIViewController
-
+}
 
 @end
 
